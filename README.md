@@ -29,6 +29,9 @@ You have to give in two arrays of integers as input and the size N and it will c
 ![image](https://github.com/playboikairoo/IntegerMultiplication-in-C-using-karatsuba-and-byte-arrays/assets/103595234/55e32cdc-f7bb-4aa2-8322-b8bc50cd14cd)
 ![image](https://github.com/playboikairoo/IntegerMultiplication-in-C-using-karatsuba-and-byte-arrays/assets/103595234/983bd3c8-c4b0-4941-b7ac-cfda2930e7dd)
 
+# Speed
+This code is 40 times faster than the naive code. Could be even faster if multi-threading is used.
+
 # Contributing
 Contributions to this library are welcome! If you find a bug or have a feature request, please open an issue on the GitHub repository.
 
