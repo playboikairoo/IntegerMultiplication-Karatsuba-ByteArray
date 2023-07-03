@@ -26,8 +26,8 @@ You have to give in two arrays of integers as input and the size N and it will c
 		returns byte array with the result 
 		performs naive multiplication when the recursive one is not needed as N is too small. 
 # Test cases
-![image](https://github.com/playboikairoo/IntegerMultiplication-in-C-using-karatsuba-and-byte-arrays/assets/103595234/55e32cdc-f7bb-4aa2-8322-b8bc50cd14cd)
-![image](https://github.com/playboikairoo/IntegerMultiplication-in-C-using-karatsuba-and-byte-arrays/assets/103595234/983bd3c8-c4b0-4941-b7ac-cfda2930e7dd)
+![Screenshot 2023-07-03 201632](https://github.com/playboikairoo/IntegerMultiplication-Karatsuba-ByteArray/assets/103595234/90bd6895-2033-47e5-8cda-cc42767e6eba)
+![Screenshot 2023-07-03 201751](https://github.com/playboikairoo/IntegerMultiplication-Karatsuba-ByteArray/assets/103595234/7d92c9a2-eba6-46bf-96c8-dd850e856818)
 
 # Speed
 This code is 40 times faster than the naive code. Could be even faster if multi-threading is used.
