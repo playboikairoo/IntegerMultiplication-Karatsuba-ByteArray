@@ -4,12 +4,12 @@ This is a code that takes two byte arrays as input and the size N. it always ass
 	I will add comments later to make my code more clear.
 	In my free time, i will try to make my code more efficient and better.
 
-# **usage**
+# **Usage**
 You can find the code under IntegerMultiplication -> IntegerMultiplication.cs.
 
 You have to give in two arrays of integers as input and the size N and it will calculate the result between them.
 
-# **functions**
+# **Functions**
 #### IntegerMultiply(byte[] X, byte[] Y, int N) 
 	returns byte array with the result 
   	Performs naive multiplication if N is small, else splits code into A, B, C, and D and multiplies AC and BD, and adds AB and CD then calls itself multiplying the 			two additions.
