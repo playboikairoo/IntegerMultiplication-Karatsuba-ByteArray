@@ -12,7 +12,7 @@ You have to give in two arrays of integers as input and the size N and it will c
 # **Functions**
 #### IntegerMultiply(byte[] X, byte[] Y, int N) 
 	returns byte array with the result 
-  	Performs naive multiplication if N is small, else splits code into A, B, C, and D and multiplies AC and BD, and adds AB and CD then calls itself multiplying the 			two additions.
+  	Performs brute force naive multiplication if N is small, else splits code into A, B, C, and D and multiplies AC and BD, and adds AB and CD then calls itself multiplying the 			two additions.
 #### Subtract(byte[] a, byte[] b)
 	returns byte array with the result 
  	subtracts two byte arrays with regards to the carry as every index can hold only one digit.
@@ -20,11 +20,11 @@ You have to give in two arrays of integers as input and the size N and it will c
 	returns byte array with the result 
  	adds two byte arrays with regards to the carry as every index can hold only one digit.
 #### ResizeArray(byte[] array, int newSize)
-		returns byte array with the result 
-		resizes array to wished new size.
+	returns byte array with the result 
+	resizes array to wished new size.
 #### NaiveMult(int N , byte[] X , byte[] Y) 
-		returns byte array with the result 
-		performs naive multiplication when the recursive one is not needed as N is too small. 
+	returns byte array with the result 
+	performs brute force naive multiplication when the recursive one is not needed as N is too small. 
 # Test cases
 ![Screenshot 2023-07-03 201632](https://github.com/playboikairoo/IntegerMultiplication-Karatsuba-ByteArray/assets/103595234/90bd6895-2033-47e5-8cda-cc42767e6eba)
 ![Screenshot 2023-07-03 201751](https://github.com/playboikairoo/IntegerMultiplication-Karatsuba-ByteArray/assets/103595234/7d92c9a2-eba6-46bf-96c8-dd850e856818)
